@@ -5,8 +5,8 @@ namespace Statistics
 {
     public class StatsComputer
     {
-        public Stats CalculateStatistics(List<float> numbers) {
-            //Implement statistics here
+        public List<float> CalculateStatistics(List<float> numbers) {
+            return numbers;
         }
     }
 }
