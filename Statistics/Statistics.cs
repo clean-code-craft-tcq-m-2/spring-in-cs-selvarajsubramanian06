@@ -7,7 +7,7 @@ namespace Statistics
     {
         public float max, min, average = 0;
         public List<float> CalculateStatistics(List<float> numbers) {
-            this.min = numbers[0];
+            /*this.min = numbers[0];
             this.max = numbers[0];
             foreach (var item in numbers)
             {
@@ -21,7 +21,7 @@ namespace Statistics
                     this.max = item;
                 }
             }
-            average /= numbers.Count;
+            average /= numbers.Count;*/
             return numbers;
         }
     }
