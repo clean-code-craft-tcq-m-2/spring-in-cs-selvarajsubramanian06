@@ -7,8 +7,8 @@ namespace Statistics
     {
         public float max, min, average = 0;
         public List<float> CalculateStatistics(List<float> numbers) {
-            this.min = numbers.First();
-            this.max = numbers.First();
+            this.min = numbers[0];
+            this.max = numbers[0];
             foreach (var item in numbers)
             {
                 this.average += item;
