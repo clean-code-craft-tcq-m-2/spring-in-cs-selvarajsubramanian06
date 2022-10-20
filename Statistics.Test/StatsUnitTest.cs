@@ -12,6 +12,7 @@ namespace Statistics.Test
         [Fact]
         public void ReportsAverageMinMax()
         {
+            
             var statsComputer = new StatsComputer();
             var computedStats = statsComputer.CalculateStatistics(
                 new List<float>{1.5f, 8.9f, 3.2f, 4.5f});
